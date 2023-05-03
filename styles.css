@@ -1,0 +1,130 @@
+.panel {
+    position: absolute;
+    bottom: 0;
+    margin-left: 50px;
+}
+.panel a {
+    float: left;
+    width: 33.3333%;
+    transition: all 0.3s ease;
+}
+.text {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color:#e6ff01;
+}
+.sidebar {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  .sidebar a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #e6ff01;
+    text-align: center;
+    display: block;
+  }
+
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidebar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid yellow;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+
+  /* Style the main content */
+  .main {
+    margin-left: 300px; /* Same as the width of the sidenav */
+    padding: 20px 20px;
+  }
+  
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+.box {
+  border: 1px solid rgb(63, 63, 63);
+  padding: 20px 20px;
+}
+
+.title{
+  text-align: left;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.content span{
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.column
+{
+  float: left;
+  width: 25%;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.progress-bar
+{
+  background-color: #e6ff01;
+  color: black;
+  border:1px solid black;
+}
+.title1 {
+  text-align: center;
+  color: Black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.subtitle1
+{
+  text-align: center;
+  width: 50%;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  float:left
+}
+.subtitle2
+{
+  width: 50%;
+  text-align: center;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  float: right;
+}
+.subtitle3
+{
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.card
+{
+  border-color: grey;
+}
+
